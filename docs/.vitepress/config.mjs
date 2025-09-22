@@ -9,8 +9,11 @@ export default defineConfig({
   title: "OwnCDN",
   description: "OwnCDN documentation",
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/jhsoftware/OwnCDN-Docs/edit/main/docs/:path'
+    },
     search: {provider:'local'},
-    logo: { light: '/images/logo-blue-64.png', dark: '/images/logo-white-64.png' },
+    logo: { light: '/icon-blue.svg', dark: '/icon-white.svg' },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
