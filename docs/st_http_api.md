@@ -102,6 +102,7 @@ For "bucket":
 - GetBucketVersioning ("Enabled" for "storage" service only)
 - HeadBucket
 - ListObjects
+- ListObjectsV2
 - ListObjectVersions
 
 For object / file:
