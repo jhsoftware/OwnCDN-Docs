@@ -8,15 +8,11 @@ Use this page in the UI when editing the [HTTP UI service](st_ui.md).
 
 ## ID
 
-The service ID. Must be unique for each service.
-
-Used as the `sid` query parameter in [HTTP API](st_http_api.md) requests.
-
-Always "UI" for the HTTP API service.
+The service ID. Always "ui".
 
 ## Name
 
-A descriptive name for the service.
+A descriptive name for the service. Always "HTTP UI". 
 
 ## Host name
 

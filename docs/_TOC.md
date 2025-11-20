@@ -1,4 +1,4 @@
----
+﻿---
 ProductID: OCDN
 ProductName: OwnCDN
 ProductVersion: 1.0
@@ -42,7 +42,6 @@ DefaultTopic: intro.md
             - [HTTP UI](es_ui.md)
             - [HTTP API](es_http_api.md)
         - [Last 100 HTTP Requests](ui_last100.md)
-    - [HTTP Binding Order](ui_http_binding_order.md)
     - [Storage Sync Status](ui_storage_sync_status.md)
     - [API Keys](ui_api_keys.md)
         - [Edit API Key](ui_edit_api_key.md)

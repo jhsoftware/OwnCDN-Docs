@@ -8,31 +8,26 @@ Use this page in the UI when editing the [HTTP API service](st_http_api.md).
 
 ## ID
 
-The service ID. Must be unique for each service.
-
-Used as the `sid` query parameter in [HTTP API](st_http_api.md) requests.
-
-Always "api" for the HTTP API service.
+The service ID. Always "api".
 
 ## Name
 
-A descriptive name for the service.
+A descriptive name for the service. Always "HTTP API".
 
 ## Host name
+
+> [!NOTE]
+> The HTTP API service can use the same host name / port number as other HTTP services, because it also relies on HTTP headers ("x-owncdn-key" / "x-amz-...") to match requests.
 
 The host name (domain name) that this service should process incoming HTTP requests for.
 Specify `*` for any host name.
 
-> [!NOTE]
-> The HTTP API service will also process incoming requests for the host name / port number specified for the [HTTP UI](st_ui.md) service.
 
 ## Port number
 
 The port number that this service should process incoming HTTP requests for.
 Specify `*` for any port number.
 
-> [!NOTE]
-> The HTTP API service will also process incoming requests for the host name / port number specified for the [HTTP UI](st_ui.md) service.
 
 ## Enable CORS
 

@@ -4,7 +4,7 @@ DocID: 43
 ---
 # Command line options (point-in-time restore)
 
-`owncdn.exe` (found in the directory where OwnCDN is installed) is both the main program executable, as well as a command line utility.
+`owncdn.exe` (found in the directory where OwnCDN is installed) is both the main server program executable, as well as a command line utility.
 
 It can be used to list and reverse the latest changes (restore to a specific point-in-time) for an OwnCDN [Storage service](st_storage.md) database.
 
