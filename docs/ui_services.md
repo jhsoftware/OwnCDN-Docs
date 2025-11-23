@@ -1,4 +1,4 @@
-﻿---
+---
 Slug: ui-services
 DocID: 13
 ---
@@ -23,4 +23,3 @@ Click the pencil icon next to each service to edit that service.
 Click a service name to go to the [Service status](ss_index.md) page for that service.
 
 Click the "+ New service" button to configure a new service.
-
