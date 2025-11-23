@@ -8,10 +8,6 @@ DocID: 41
 
 Name of this OwnCDN instance. Defaults to the computer name.
 
-## New UI Password
-
-Enter a value to change the UI password. Leave blank to not change. 
-
 ## Time zone
 
 The time zone used to display dates / times in the UI.

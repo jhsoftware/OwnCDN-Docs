@@ -18,7 +18,7 @@ DefaultTopic: intro.md
     - [Public HTTP Binding](st_public_http_binding.md)
     - [HTTP UI](st_ui.md)
     - [HTTP API](st_http_api.md)
-- UI
+- [UI](ui_general.md)
     - [HTTP Stats](ui_http_stats.md)
     - [Services](ui_services.md)
         - [Service Status](ss_index.md)
