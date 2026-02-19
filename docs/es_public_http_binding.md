@@ -57,3 +57,7 @@ Specify how long the browser may cache the response.
 [#INCLUDE](parts/es_source.md)
 
 [#INCLUDE](parts/es_update_button.md)
+
+[#INCLUDE](parts/es_delete_button.md)
+
+[#INCLUDE](parts/es_last100_button.md)

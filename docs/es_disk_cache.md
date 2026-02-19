@@ -26,3 +26,5 @@ Remove the file from the cache if it has not been requested again for the specif
 
 
 [#INCLUDE](parts/es_update_button.md)
+
+[#INCLUDE](parts/es_delete_button.md)

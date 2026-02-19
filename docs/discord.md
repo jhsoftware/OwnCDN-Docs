@@ -20,4 +20,4 @@ Click the new webhook, and click "Copy Webhook URL":
 
 ![](images/discord3.png)
 
-Note, may also want to change the webhook name to something like "OwnCDN".
+You may also want to change the webhook name to something like "OwnCDN".

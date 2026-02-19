@@ -37,3 +37,5 @@ For more information on CORS, see https://developer.mozilla.org/en-US/docs/Web/H
 
 
 [#INCLUDE](parts/es_update_button.md)
+
+[#INCLUDE](parts/es_last100_button.md)

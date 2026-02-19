@@ -8,4 +8,4 @@ DocID: 20
 
 [#INCLUDE](parts/ss_bottom.md)
 
-[#INCLUDE](parts/ss_delete.md)
+[#INCLUDE](parts/ss_delete_button.md)

@@ -38,4 +38,4 @@ The number of files marked for deletion currently stored in the service.
 
 [#INCLUDE](parts/ss_bottom.md)
 
-[#INCLUDE](parts/ss_delete.md)
+[#INCLUDE](parts/ss_delete_button.md)

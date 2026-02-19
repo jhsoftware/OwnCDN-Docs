@@ -25,3 +25,5 @@ When the source responds with another error (not "not found"), return the same r
 This is to avoid bombarding the source web-server with the same request over and other.
 
 [#INCLUDE](parts/es_update_button.md)
+
+[#INCLUDE](parts/es_delete_button.md)

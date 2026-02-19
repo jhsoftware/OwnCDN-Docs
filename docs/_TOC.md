@@ -1,4 +1,4 @@
-﻿---
+---
 ProductID: OCDN
 ProductName: OwnCDN
 ProductVersion: 1.0
@@ -52,4 +52,3 @@ DefaultTopic: intro.md
 - Miscellaneous
     - [Command line options (point-in-time restore)](cmdline.md)
     - [Discord webhook](discord.md)
- 

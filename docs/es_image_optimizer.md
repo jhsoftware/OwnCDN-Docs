@@ -29,3 +29,5 @@ Image quality of compressed (JPEG and WebP) images.
 
 
 [#INCLUDE](parts/es_update_button.md)
+
+[#INCLUDE](parts/es_delete_button.md)

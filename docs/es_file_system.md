@@ -13,3 +13,5 @@ Use this page in the UI when creating / editing a [File System service](st_file_
 The local directory where files should be served from / stored to.
 
 [#INCLUDE](parts/es_update_button.md)
+
+[#INCLUDE](parts/es_delete_button.md)

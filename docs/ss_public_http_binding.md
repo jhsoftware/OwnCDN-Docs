@@ -8,6 +8,6 @@ DocID: 21
 
 [#INCLUDE](parts/ss_bottom.md)
 
-[#INCLUDE](parts/ss_delete.md)
+[#INCLUDE](parts/ss_delete_button.md)
 
-[#INCLUDE](parts/ss_last100.md)
+[#INCLUDE](parts/ss_last100_button.md)
