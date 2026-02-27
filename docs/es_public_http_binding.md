@@ -30,13 +30,13 @@ For example, if the incoming request is for `http://example.com/images/products/
 
 ## Enable CORS
 
-Allow this service to be accessed by JavaScript (for example using `fetch()` and `XMLHttpRequest`) on web-sites served from  other domain names.
+Allow this service to be accessed by JavaScript (for example, using `fetch()` and `XMLHttpRequest`) on websites served from other domain names.
 
 For more information on CORS, see https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS
 
 ## Remove URL query
 
-When enabled, any query string in the requested path, will be removed from the path requested from the source service (see below).
+When enabled, any query string in the requested path will be removed from the path requested from the source service (see below).
 
 For example, if this setting is checked and the incoming request is for `http://example.com/products?id=123`, the path requested from the source service will be `products`.
 

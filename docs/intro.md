@@ -6,7 +6,7 @@ DocID: 1
 
 [?WEB]
 > [!NOTE]
-> This is an on-line version of the documentation which is included with the latest version of OwnCDN.
+> This is an on-line version of the documentation that is included with the latest version of OwnCDN.
 >
 > Clicking the (?) icon in most windows / dialogs within the software UI,
 > will take you to a page in this documentation which describes the specifics of that window / dialog.

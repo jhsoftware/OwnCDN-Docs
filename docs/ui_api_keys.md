@@ -4,7 +4,7 @@ DocID: 37
 ---
 # UI / API Keys
 
-This page show a list of defined API keys (if any).
+This page shows a list of defined API keys (if any).
 
 Click the pencil icon next to an API key to edit it.
 

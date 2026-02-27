@@ -32,7 +32,7 @@ The service ID of the storage service to replication from on the Source.
 
 When checked, character upper/lower case in the file path, up to the query part (before `?`) , won't matter.
 
-Only editable creating a new service.
+Only editable while creating a new service.
 
 ## Keep old versions
 

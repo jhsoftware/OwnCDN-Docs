@@ -6,4 +6,4 @@ DocID: 7
 
 The HTTP Fetcher service is used to fetch files (via HTTP) from other web-servers.
 
-See [UI /  Edit Service - HTTP Fetcher](es_http_fetcher.md) for configuration options.
+See [UI / Edit Service - HTTP Fetcher](es_http_fetcher.md) for configuration options.

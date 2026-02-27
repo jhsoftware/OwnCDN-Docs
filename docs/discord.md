@@ -16,7 +16,7 @@ Click "Integrations" and click "Create Webhook":
 
 That will generate a webhook (named "Captain Hook" by default).
 
-Click the new webhook, and click "Copy Webhook URL":
+Click the new webhook and then click "Copy Webhook URL":
 
 ![](images/discord3.png)
 

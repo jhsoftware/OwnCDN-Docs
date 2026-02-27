@@ -8,7 +8,7 @@ DocID: 38
 
 Unique identifier for this API key.
 
-Used with the [HTTP API](st_http_api.md) -  in S3 mode only. 
+Used with the [HTTP API](st_http_api.md) - in S3 mode only. 
 
 ## Key Value
 
@@ -16,7 +16,7 @@ Secret value for the key.
 
 Click the "Generate new" button (and click the "Update" button) to change the Key value.
 
-Used with the [HTTP API](st_http_api.md) -  in standard and S3 mode.
+Used with the [HTTP API](st_http_api.md) - in standard and S3 mode.
 
 ## Permissions
 

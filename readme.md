@@ -6,13 +6,13 @@ The documentation contained in this repository is hosted at <https://owncdn.com/
 
 Contributions are most welcome. No contribution is too big or too small.
 
-Contributors will of course be attributed on our web-site. See the "Contributors" front-matter property below.
+Contributors will, of course, be attributed on our website. See the "Contributors" front-matter property below.
 
 Fork this repository, clone locally, make your updates, commit, push, create a pull request in GitHub...
 
 ## Repository structure
 
-- Topic files (markdown) are stored in the `docs` folder.\
+- Topic files (Markdown) are stored in the `docs` folder.\
 The name of each topic file is: `<page-ID>.md`.
 - A `_TOC.md` file (in the `docs` folder) contains title of the help file and the table of content, and must follow strict formatting (see below).
 
@@ -22,7 +22,7 @@ Page IDs (in topic file names) are used to link the help buttons in the software
 
 ### The '_TOC.md' file
 
-Must follow this format - sub-topics indented exactly a multiple of 4 spaces:
+Must follow this format - subtopics indented exactly a multiple of four spaces:
 
 ```
 ---
@@ -59,10 +59,10 @@ Must follow this format:
 At the top of each file is a section with metadata. This section starts and ends with three dashes (---) on a line by itself.
 In other similar documentation projects, this section is in YAML format.
 That is also the plan for this project, but we haven't gotten to that just yet.
-For now, it is just a line based collection of properties - one property per line.
-Each line consisting of a key value pair.
+For now, it is just a line-based collection of properties - one property per line.
+Each line consists of a key-value pair.
 
-For the '_TOC.md' file, there are 3 required properties:
+For the '_TOC.md' file, there are three required properties:
 
 - **ProductName:** Name of the product that this help file is for.
 - **ProductVersion:** Version of the product that this help file is for.
@@ -106,8 +106,8 @@ For example:
 
 ### File inclusion
 
-You can include another markdown file using a link where the text part is `#INCLUDE`.  
-This syntax was chosen because it tricks IDEs into checking if the include file exists - and potentially display a warning if not.
+You can include another Markdown file using a link where the text part is `#INCLUDE`.  
+This syntax was chosen because it tricks IDEs into checking if the include file exists - and potentially displays a warning if not.
 
 ```
 [#INCLUDE](subfolder/filename.md)

@@ -8,7 +8,7 @@ Show a list of defined replication sources (other OwnCDN servers).
 
 Replication sources are used with [Storage services](st_storage.md) configured to be a replica.
 
-Click the pencil icon next to a replication source  to edit it.
+Click the pencil icon next to a replication source to edit it.
 
 Click the "+ New Replication Source" button to create a new Replication Source.
 

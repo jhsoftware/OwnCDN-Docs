@@ -4,14 +4,14 @@ DocID: 11
 ---
 # HTTP API (service type)
 
-The HTTP API service provides programmatic access to your OwnCDN instance - for example for uploading files from other applications.
+The HTTP API service provides programmatic access to your OwnCDN instance - for example, for uploading files from other applications.
 
-For configuration options, see [UI /  Edit Service - HTTP API](es_http_api.md).
+For configuration options, see [UI / Edit Service - HTTP API](es_http_api.md).
 
-Two different API modes are supported - a primary JSON based mode ("standard mode"), and a more limited AWS S3 compatible XML based model ("S3 mode").
+Two different API modes are supported - a primary JSON-based mode ("standard mode"), and a more limited AWS S3 compatible XML-based model ("S3 mode").
 
 Some functionality of the standard mode is duplicated in the S3 mode.
-However, the S3 mode is provided for S3 compatibility only, and does not offer all the of the functionality of the standard mode.
+However, the S3 mode is provided for S3 compatibility only and does not offer all the functionality of the standard mode.
 
 ## Standard Mode
 
@@ -68,7 +68,7 @@ Standard mode supports the following functions:
 - deletefile - Delete a file.
 - flush - Flush all cached files.
 - versionlist - Get a list of available versions of a file ([storage service](st_storage.md) only).
-- syncnext - Get the next replication update  ([storage service](st_storage.md) only).
+- syncnext - Get the next replication update ([storage service](st_storage.md) only).
 - reqlist - Get a list of the most recent requests.
 
 
@@ -81,7 +81,7 @@ All HTTP requests to the HTTP API service with a header key starting with `x-amz
 Amazon S3 has two "addressing models" - "path-style" or "virtual-hosted-style". 
 See <https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html>
 
-OwnCDN currently only supports the "path-style" addressing model, meaning that the "bucked id" (= service ID in OwnCDN), is the first part of the URL path (not part of the host name).
+OwnCDN currently only supports the "path-style" addressing model, meaning that the "bucket id" (= service ID in OwnCDN) is the first part of the URL path (not part of the host name).
 
 ### Authentication
 
@@ -109,8 +109,8 @@ For object / file:
 - CopyObject
 - DeleteObject
 - GetObjectTagging (always empty list)
-- GetObjectAcl
 - GetObject (only `versionId` parameter is used)
+- GetObjectAcl
 - HeadObject
 - PutObject
 

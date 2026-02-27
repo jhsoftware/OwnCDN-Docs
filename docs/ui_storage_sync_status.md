@@ -10,4 +10,4 @@ For Storage services which are replicas, it shows the source, when it was last s
 
 The "Last Sync ID" value for each Storage service is a numeric ID which is incremented with each update to the service (file addition, file update, file delete).
 
-To manually verify that everything is up to date, you can compare this page on two OwnCDN instances, and check that the "Last Sync ID" matches for each Storage service.
+To manually verify that everything is up to date, you can compare this page on two OwnCDN instances and check that the "Last Sync ID" matches for each Storage service.
