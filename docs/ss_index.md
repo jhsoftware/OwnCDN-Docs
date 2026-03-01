@@ -12,6 +12,6 @@ Select service type:
 - [File System](ss_file_system.md)
 - [HTTP Fetcher](ss_http_fetcher.md)
 - [Image Optimizer](ss_image_optimizer.md)
-- [Public HTTP Binding](ss_public_http_binding.md)
+- [HTTP Publisher](ss_http_publisher.md)
 - [HTTP UI](ss_ui.md)
 - [HTTP API](ss_http_api.md)

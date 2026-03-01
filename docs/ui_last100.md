@@ -6,4 +6,4 @@ DocID: 34
 
 This page shows a list of the last 100 HTTP requests processed by a service.
 
-Available for [Public HTTP Binding](st_public_http_binding.md), [HTTP UI](st_ui.md), and [HTTP API](st_http_api.md) service types from the [Service Status page](ss_index.md).
+Available for [HTTP Publisher](st_http_publisher.md), [HTTP UI](st_ui.md), and [HTTP API](st_http_api.md) service types from the [Service Status page](ss_index.md).

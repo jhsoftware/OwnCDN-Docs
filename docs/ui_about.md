@@ -37,4 +37,4 @@ After you have purchased a license, use this function to activate it. You will n
 
 Use this function if you no longer wish to use your license for OwnCDN on this computer - for example, if you want to move the license to another computer.
 
-No data is deleted, but after de-activation, this instance of OwnCDN will no longer serve HTTP API / Public HTTP Binding requests.
+No data is deleted, but after de-activation, this instance of OwnCDN will no longer serve HTTP API / HTTP Publisher requests.

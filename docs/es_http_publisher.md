@@ -1,10 +1,10 @@
 ---
-Slug: ui-edit-service-public-http-binding
+Slug: ui-edit-service-http-publisher
 DocID: 31
 ---
-# UI / Edit Service - Public HTTP Binding
+# UI / Edit Service - HTTP Publisher
 
-Use this page in the UI when creating / editing a [Public HTTP Binding service](st_public_http_binding.md).
+Use this page in the UI when creating / editing a [HTTP Publisher service](st_http_publisher.md).
 
 [#INCLUDE](parts/es_id_name.md)
 

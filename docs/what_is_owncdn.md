@@ -7,7 +7,7 @@ DocID: 2
 OwnCDN is self-hosted **file/object storage**, **caching** and **image optimization** services - effectively your own CDN node.
 
 Services can be chained together in any order to provide a powerful system.
-For example: Public HTTP Binding → Disk Cache → Image Optimization → Blob/object storage.
+For example: HTTP Publisher → Disk Cache → Image Optimization → Blob/object storage.
 
 OwnCDN is configurable through a [web-based user interface](st_ui.md).
 
@@ -22,7 +22,7 @@ The [Storage service](st_storage.md) provides versioned and replicable storage (
 
 The [File System service](st_file_system.md) provides access to files in the local file system.
 
-You can make store, retrieve, and delete files/object via the [HTTP API service](st_http_api.md) or provide public access to the files with the [Public HTTP Binding service](st_public_http_binding.md).
+You can make store, retrieve, and delete files/object via the [HTTP API service](st_http_api.md) or provide public access to the files with the [HTTP Publisher](st_http_publisher.md).
 
 
 ## Caching
@@ -35,7 +35,7 @@ The [Disk Cache service](st_disk_cache.md) provides temporary file/object cachin
 
 You can configure the cache services to retrieve files from a remote web-server using the [HTTP Fetcher service](st_http_fetcher.md), or you can upload files via the [HTTP API service](st_http_api.md).
 
-You can provide public access to the cached files with the [Public HTTP Binding service](st_public_http_binding.md).
+You can provide public access to the cached files with the [HTTP Publisher service](st_http_publisher.md).
 
 
 ## Image Optimization

@@ -14,7 +14,7 @@ The Image Optimizer service will attempt to compress all images using WebP or JP
 It will, of course, only serve the compressed image if this is actually smaller (in bytes) than the original.
 
 To enable WebP compression, include `webp=1` in the URL query parameters.  
-The [Public HTTP Binding service](st_public_http_binding.md) has a setting to automatically append this (`webp=1`) to the URL query path if the incoming HTTP request indicates support for WebP. 
+The [HTTP Publisher](st_http_publisher.md) has a setting to automatically append this (`webp=1`) to the URL query path if the incoming HTTP request indicates support for WebP. 
 
 Use the "Quality %" setting to control the quality of compressed images (both WebP and JPEG) - see [UI / Edit Service - Image Optimizer](es_image_optimizer.md).
 

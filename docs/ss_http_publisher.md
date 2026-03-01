@@ -1,8 +1,8 @@
 ---
-Slug: ui-service-status-public-http-binding
+Slug: ui-service-status-http-publisher
 DocID: 21
 ---
-# UI / Service Status - Public HTTP Binding
+# UI / Service Status - HTTP Publisher
 
 [#INCLUDE](parts/ss_id_type.md)
 
