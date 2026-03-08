@@ -6,9 +6,9 @@ DocID: 3
 
 The Storage service is versioned file/object storage - supporting live replication to a remote OwnCDN instance.
 
-Instead of overwriting previous versions of a file / object, OwnCDN can create a new version for each update (including deletions).
+Instead of overwriting a previous version of a file / object, OwnCDN can create a new version for each update (including deletions).
 This means that it is possible to restore individual files to a previous version - including deleted files.  
-It is also possible to restore the whole storage service to a specific earlier point in time. See the [Command line options](cmdline.md) for details.
+It is also possible to restore the whole storage service to a specific point in time. See the [Command line options](cmdline.md) for details.
 
 Live replication means that any file additions, updates, and deletions you make to files on one OwnCDN instance can be instantly synchronized to another instance. This includes versions (see above), so that restoring old versions and point in time restore also works on the replica server.
 

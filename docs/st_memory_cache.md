@@ -8,7 +8,7 @@ The Memory Cache service is used for temporarily storing files/objects (in memor
 
 The advantage of Memory Cache over [Disk Cache](st_disk_cache.md) is that serving files/objects from memory is a lot faster than serving from disk (of course, memory (RAM) is often more limited than disk space).
 
-Use memory caching for files/ objects which are requested very frequently.
+Use memory caching for files/objects which are requested very frequently.
 
 You can instantly purge (clear out) all the cached files/objects by clicking the "Purge" button on the [Service status](ss_memory_cache.md) page.
 

@@ -12,7 +12,7 @@ Use this page in the UI when creating / editing a [Storage service](st_storage.m
 
 Check if this should be a continuously synchronized replica of a storage service on another OwnCDN instance.
 
-Only editable when creating a new service.
+You can only set this option while creating a new service. After this it is locked forever.
 
 ## Replication source 
 
@@ -28,11 +28,11 @@ Use [Replication sources](ui_replication_sources.md) to configure this list.
 
 The service ID of the storage service to replication from on the Source.
 
-## Case-sensitive
+[#INCLUDE](parts/es_case_sensitive.md)
 
-When checked, character upper/lower case in the file path, up to the query part (before `?`) , won't matter.
+> [!NOTE]
+> If you intend to use the storage service with the S3 API, note that some applications / services expect the S3 storage API to be case-sensitive (enable this option). 
 
-Only editable while creating a new service.
 
 ## Keep old versions
 

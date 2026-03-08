@@ -4,7 +4,7 @@ DocID: 45
 ---
 # UI
 
-The OwnCDN web UI follows the typical "admin panel" layout with a top banner and a sidebar menu.
+The OwnCDN web UI follows the typical "admin dashboard" layout with a top banner and a sidebar menu.
 
 The top banner has a single "User" drop-down menu represented as a person icon (on the far right side), 
 from where you can select "Change UI password" and "Log out".

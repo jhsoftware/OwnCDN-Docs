@@ -5,7 +5,7 @@ The service ID. Must be unique for each service.
 
 Used as the `sid` query parameter in [HTTP API](st_http_api.md) requests.
 
-Only editable when creating a new service.
+You can only edit this setting while creating a new service. After this it is locked forever.
 
 ## Name
 

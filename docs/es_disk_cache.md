@@ -8,11 +8,7 @@ Use this page in the UI when creating / editing a [Disk Cache service](st_disk_c
 
 [#INCLUDE](parts/es_id_name.md)
 
-## Case-sensitive
-
-When checked, character upper/lower case in the file path, up to the query part (before `?`) , won't matter.
-
-Only editable while creating a new service.
+[#INCLUDE](parts/es_case_sensitive.md)
 
 [#INCLUDE](parts/es_source.md)
 
